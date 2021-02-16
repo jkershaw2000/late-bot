@@ -3,6 +3,12 @@
 
 A bot that gets people to hurry up.
 
+## Set Up
+- Requires
+    - `texttable`
+    - `discord.py`
+- Create file called `creds.py` in root directory. Add discord bot token as variable called `token`
+    - e.g. `token = <TOKEN>`
 ## Usage
 
 `>late name1...nameN` - begins a lateness counter for the specified user(s)
